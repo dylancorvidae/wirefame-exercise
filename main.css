@@ -7,6 +7,7 @@ header {
     right: 0;
     padding: 0px 0px;
     line-height: 100px;
+    
 }
 
 #logo {
@@ -17,32 +18,73 @@ nav {
     display: inline-block;
     width: 150px;
     text-align: center;
-    background-color: dimgray; 
+    background-color: rgb(104, 104, 104, 0); 
 }
 
 #hero-image {
     margin: 15px 30px;
 }
 
-
 .sub-banner {
-    margin: 15px 15px;
+    display: grid;
+    grid-template-columns: 330px 330px 330px;
 }
-#subfirst {
-    margin: 15px 15px 15px 30px;
+#sub-banner-first {
+    margin: 15px 30px 15px 30px;
+}
+
+#sub-banner-second {
+    margin: 15px 30px 15px 30px;
+}
+
+#sub-banner-third {
+    margin: 15px 30px 15px 30px;
+}
+
+
+.featured-section {
+    display: grid;
+    grid-template-columns: 510px 510px;
+    grid-template-rows: 430px;
 }
 
 #featured-section-banner {
-    float: left;
+    margin: 15px 30px 15px 30px;
+
 }
 
-.featured-section {
-    width: 480;
-    height: 400;
+#featured-section-heading {
+    font-weight: bold;
+    font-size: 1.1rem;
+    height: 20px;
+    margin: 10px 30px 0px 30px;
+}
+
+.scrollable-container {
+    height: 310px;
+    overflow: scroll;
+    margin: 15px 30px 0px 30px;
+    font-style: italic;
+}
+
+button {
+    background-color: black;
+    border: solid black;
+    color: white;
+    font-weight: bold;
+    font-size: 1.05rem;
+    height: 50px;
+    width: 180px;
+    margin: 10px 30px 0px 30px;
 }
 
 footer {
-    height: 120px;
+    margin: 15px 0px 0px 0px;
+    width: 100% auto 0;
+    height: 100px;
     background-color: dimgray;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
